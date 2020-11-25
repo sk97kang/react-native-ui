@@ -108,7 +108,6 @@ const OnBoarding = () => {
             height: dotSize,
             opacity: opacity,
           };
-          console.log(dopPosition, animationStyle);
           return <Dot key={`dot-${index}`} style={animationStyle} />;
         })}
       </DotContainer>
